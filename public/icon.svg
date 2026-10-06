@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <linearGradient id="micGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0e7ff" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <!-- Wave rings -->
+  <circle cx="256" cy="230" r="140" stroke="#a5b4fc" stroke-width="12" stroke-linecap="round" stroke-dasharray="16 28" opacity="0.5"/>
+  <circle cx="256" cy="230" r="180" stroke="#818cf8" stroke-width="10" stroke-linecap="round" stroke-dasharray="24 36" opacity="0.3"/>
+  <!-- Microphone -->
+  <rect x="216" y="140" width="80" height="150" rx="40" fill="url(#micGrad)" filter="drop-shadow(0 10px 15px rgba(0,0,0,0.3))" />
+  <!-- Sound receiver arch -->
+  <path d="M176 210 C176 290 336 290 336 210" stroke="#ffffff" stroke-width="20" stroke-linecap="round" fill="none" />
+  <!-- Stand stem & base -->
+  <line x1="256" y1="290" x2="256" y2="350" stroke="#ffffff" stroke-width="20" stroke-linecap="round" />
+  <rect x="196" y="350" width="120" height="20" rx="10" fill="#ffffff" />
+</svg>

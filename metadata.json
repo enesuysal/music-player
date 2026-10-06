@@ -1,0 +1,6 @@
+{
+  "name": "PodVault - iOS Offline Podcast Player",
+  "description": "Play local and favorite podcast episodes on your iPhone with iOS default lock screen music player integration, persistent local drive storage, and offline listening.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
